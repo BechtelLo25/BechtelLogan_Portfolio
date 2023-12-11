@@ -4,11 +4,12 @@ document.addEventListener("DOMContentLoaded", function () {
         // HTML content for the About page
         var aboutHtml = `
             <h1>About Us</h1>
+            <p>This is the about page content.</p>
             <a href="/">Go to Home</a>
         `;
 
         // Inject the HTML into the specified container
-        document.getElementById('aboutContentContainer').innerHTML = aboutHtml;
+        document.getElementById('contentContainer').innerHTML = aboutHtml;
     }
 
     // Click event listener for the "Go to About" link
