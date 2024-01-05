@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
         var aboutHtml = `
             <h1>Home</h1>
             <p>This is the home page content.</p>
-            <a href="/">Go to Home</a>
         `;
 
         // Inject the HTML into the specified container

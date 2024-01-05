@@ -1,8 +1,9 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font: 'lexend'; 
+    font-size: 16px;
     background-color: #f0f0f0;
     margin: 0;
-    padding: 0;
+    padding: 0; 
 }
 
 nav {
@@ -10,12 +11,13 @@ nav {
     padding: 10px;
     display: flex;
     justify-content: flex-end;
+    text-decoration: none;
 }
 
 nav a {
     color: white;
-    text-decoration: none;
     margin: 0 10px;
+    text-decoration: none;
 }
 
 nav a:hover {

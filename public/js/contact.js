@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
         var contactHtml = `
             <h1>Contact Us</h1>
             <p>This is the contact page content.</p>
-            <a href="/">Go to Home</a>
         `;
 
         // Inject the HTML into the specified container
