@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
         `;
 
         // Inject the HTML into the specified container
-        document.getElementById('contentContainer').innerHTML = aboutHtml;
+        document.getElementById('contentContainer') = aboutHtml;
     }
 
     // Click event listener for the "Go to About" link

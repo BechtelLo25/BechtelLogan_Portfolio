@@ -18,6 +18,7 @@ nav a {
     color: white;
     margin: 0 10px;
     text-decoration: none;
+    float: right;
 }
 
 nav a:hover {
@@ -25,8 +26,11 @@ nav a:hover {
 }
 
 #contentContainer {
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f0f0f0;
+}
+
+#homeLink {
+    float: left;
 }
 
 /* Style for the button */
