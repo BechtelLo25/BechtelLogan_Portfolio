@@ -1,5 +1,8 @@
 body {
-    
+    background-image: url('/res/bg.png');
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background */
+    background-size: 160%;
     font-family: "Jersey 10", sans-serif;
     font-weight: 400;
     font-style: normal; 
@@ -8,6 +11,8 @@ body {
     background-color: #020202;
     margin: 0;
     padding: 0; 
+    overflow: hidden;
+    animation: parallax 25s infinite ease-in-out;
 }
 
 nav {
@@ -76,4 +81,37 @@ a:hover {
 
 #st {
     text-align: center;
+}
+
+#pixelComp {
+    width: 400px;
+    height: 400px;
+    padding-left: 65%;
+    padding-top: 10%;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Style for the circle overlay */
+.circle-overlay {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 200, 0, 0.5); /* Semi-transparent red color */
+    width: 400px; /* Adjust the size of the circle */
+    height: 400px; /* Adjust the size of the circle */
+    border-radius: 50%; /* Ensure the overlay is a circle */
+}
+
+@keyframes parallax {
+    0% { background-position: 45% 0%; }
+    25% { background-position: 50% 25%; }
+    50% { background-position: 45% 0%; }
+    75% { background-position: 40% 25%; }
+    100% { background-position: 45% 0%; }
 }
