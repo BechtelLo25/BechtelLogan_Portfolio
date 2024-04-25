@@ -1,10 +1,10 @@
 $(document).ready(function() {
     var titles = [
-        "Software Developer",
+        "Software Engineer",
         "Java Programmer",
-        "Engineer",
+        "Team Leader",
         "Web Developer",
-        "JavaScript Programmer",
+        "FIRST Team Member",
         "Open Source Contributor"
     ];
 
