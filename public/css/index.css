@@ -1,7 +1,7 @@
 body {
     background-image: url('/res/bg.png');
-    background-size: cover; /* Cover the entire background */
-    background-position: center; /* Center the background */
+    background-size: cover;
+    background-position: center;
     background-size: 160%;
     font-family: "Jersey 10", sans-serif;
     font-weight: 400;
@@ -67,13 +67,6 @@ a:hover {
     position: absolute;
 }
 
-#title {
-    padding-top: 18%;
-    padding-left: 15%;
-    font-size: 260%;
-    position: absolute;
-}
-
 #intro {
     padding-top: 45%;
     text-align: center;
@@ -84,8 +77,8 @@ a:hover {
 }
 
 #pixelComp {
-    width: 400px;
-    height: 400px;
+    width: 22%;
+    height: 22%;
     padding-left: 65%;
     padding-top: 10%;
 }
@@ -96,23 +89,11 @@ a:hover {
 }
 
 
-/* Style for the circle overlay */
-.circle-overlay {
-    position: absolute;
-    top: 50%;
-    left: 75%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 200, 0, 0.5); /* Semi-transparent red color */
-    width: 400px; /* Adjust the size of the circle */
-    height: 400px; /* Adjust the size of the circle */
-    border-radius: 50%; /* Ensure the overlay is a circle */
-}
-
 @keyframes parallax {
     0% { background-position: 45% 0%; }
-    25% { background-position: 50% 25%; }
+    25% { background-position: 50% 5%; }
     50% { background-position: 45% 0%; }
-    75% { background-position: 40% 25%; }
+    75% { background-position: 40% 5%; }
     100% { background-position: 45% 0%; }
 }
 
@@ -123,7 +104,6 @@ a:hover {
     position: absolute;
     white-space: nowrap; 
     overflow: hidden; 
-    border-right: 2px solid transparent; 
     animation: typing 6s steps(100) infinite, blink-caret 0.75s step-end infinite; 
     line-height: 1; 
 }

@@ -10,25 +10,24 @@ $(document).ready(function() {
 
     var index = 0;
     var titleElement = $("#title");
-    var typingSpeed = 150; // Typing speed in milliseconds
-    var backspaceSpeed = 75; // Backspace speed in milliseconds
-    var cursorBlinkSpeed = 400; // Cursor blink speed in milliseconds
+    var typingSpeed = 150; 
+    var backspaceSpeed = 75; 
+    var cursorBlinkSpeed = 400; 
 
     function typeText(text, callback) {
         var textIndex = 0;
         var typingInterval = setInterval(function() {
-            titleElement.html(text.substring(0, textIndex) + '<span class="cursor">|</span>'); // Add cursor
+            titleElement.html(text.substring(0, textIndex) + '<span class="cursor">|</span>'); 
             textIndex++;
 
             if (textIndex > text.length) {
                 clearInterval(typingInterval);
-                setTimeout(callback, 1000); // Wait for 1 second before backspacing
+                setTimeout(callback, 1000); 
             } else if (textIndex === text.length) {
-                onTypingComplete(); // Call onTypingComplete when typing animation completes
+                onTypingComplete();
             }
         }, typingSpeed);
 
-        // Blinking cursor
         var cursorInterval = setInterval(function() {
             var cursor = titleElement.find(".cursor");
             cursor.toggleClass("hidden");
@@ -39,7 +38,7 @@ $(document).ready(function() {
         var text = titleElement.text();
         var textIndex = text.length;
         var backspaceInterval = setInterval(function() {
-            titleElement.html(text.substring(0, textIndex - 1) + '<span class="cursor">|</span>'); // Add cursor
+            titleElement.html(text.substring(0, textIndex - 1) + '<span class="cursor">|</span>'); 
             textIndex--;
 
             if (textIndex === 0) {
@@ -48,7 +47,6 @@ $(document).ready(function() {
             }
         }, backspaceSpeed);
 
-        // Blinking cursor
         var cursorInterval = setInterval(function() {
             var cursor = titleElement.find(".cursor");
             cursor.toggleClass("hidden");
@@ -64,10 +62,5 @@ $(document).ready(function() {
         });
     }
 
-    // Start the cycle
     cycleTitles();
-
-    function onTypingComplete() {
-        console.log("Hi"); // Print "Hi" when typing animation completes
-    }
 });

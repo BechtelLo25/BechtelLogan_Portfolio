@@ -1,5 +1,8 @@
 body {
-    
+    background-image: url('/res/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-size: 160%;
     font-family: "Jersey 10", sans-serif;
     font-weight: 400;
     font-style: normal; 
@@ -8,6 +11,8 @@ body {
     background-color: #020202;
     margin: 0;
     padding: 0; 
+    overflow: hidden;
+    animation: parallax 25s infinite ease-in-out;
 }
 
 nav {
@@ -48,32 +53,93 @@ button {
 }
 
 a {
-    color: #16DB65
+    color: #16DB65;
 }
 
 a:hover {
     color: #0056b3;
 }
 
-#name {
-    padding-left: 12%;
-    padding-top: 13%;
+#header {
+    padding-left: 15%;
+    padding-top: 3%;
     font-size: 320%;
     position: absolute;
 }
 
-#title {
+@keyframes parallax {
+    0% { background-position: 45% 0%; }
+    25% { background-position: 50% 5%; }
+    50% { background-position: 45% 0%; }
+    75% { background-position: 40% 5%; }
+    100% { background-position: 45% 0%; }
+}
+
+#desc1 {
+    padding-top: 9%;
+    padding-left: 11%;
+    font-size: 200%;
+    position: absolute;
+    white-space: nowrap; 
+    overflow: hidden; 
+    line-height: 1; 
+}
+
+#desc2 {
+    padding-top: 12%;
+    padding-left: 11%;
+    font-size: 200%;
+    position: absolute;
+    white-space: nowrap; 
+    overflow: hidden; 
+    line-height: 1; 
+}
+
+#desc3 {
+    padding-top: 15%;
+    padding-left: 11%;
+    font-size: 200%;
+    position: absolute;
+    white-space: nowrap; 
+    overflow: hidden; 
+    line-height: 1; 
+}
+
+#desc4 {
     padding-top: 18%;
-    padding-left: 15%;
-    font-size: 260%;
+    padding-left: 11%;
+    font-size: 200%;
+    position: absolute;
+    white-space: nowrap; 
+    overflow: hidden; 
+    line-height: 1; 
+}
+
+#skills {
+    padding-top: 24%;
+    text-align: center;
+    font-size: 200%;
+    white-space: nowrap; 
+    overflow: hidden; 
+    line-height: 1; 
+}
+
+#skillset {
+    text-align: center;
+    font-size: 200%;
+    white-space: nowrap; 
+    overflow: hidden; 
+    line-height: 1; 
+}
+
+#pixelGame {
+    width: 22%;
+    height: 42%;
+    padding-left: 68%;
+    padding-top: 6%;
     position: absolute;
 }
 
-#intro {
-    padding-top: 45%;
-    text-align: center;
-}
-
-#st {
-    text-align: center;
+#pixelBorder1 {
+    padding-left: 27.85%;
 }
