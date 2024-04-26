@@ -77,46 +77,17 @@ a:hover {
 
 #desc1 {
     padding-top: 9%;
-    padding-left: 11%;
+    padding-left: 6%;
     font-size: 200%;
-    position: absolute;
-    white-space: nowrap; 
+    position: absolute; 
     overflow: hidden; 
     line-height: 1; 
-}
-
-#desc2 {
-    padding-top: 12%;
-    padding-left: 11%;
-    font-size: 200%;
-    position: absolute;
-    white-space: nowrap; 
-    overflow: hidden; 
-    line-height: 1; 
-}
-
-#desc3 {
-    padding-top: 15%;
-    padding-left: 11%;
-    font-size: 200%;
-    position: absolute;
-    white-space: nowrap; 
-    overflow: hidden; 
-    line-height: 1; 
-}
-
-#desc4 {
-    padding-top: 18%;
-    padding-left: 11%;
-    font-size: 200%;
-    position: absolute;
-    white-space: nowrap; 
-    overflow: hidden; 
-    line-height: 1; 
+    word-wrap: break-word;
+    max-width: 45%;
 }
 
 #skills {
-    padding-top: 24%;
+    padding-top: 23%;
     text-align: center;
     font-size: 200%;
     white-space: nowrap; 
@@ -143,3 +114,4 @@ a:hover {
 .skillSetImages {
     text-align: center;
 }
+
