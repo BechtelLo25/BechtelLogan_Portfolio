@@ -11,7 +11,7 @@ $(document).ready(function() {
     var index = 0;
     var titleElement = $("#title");
     var typingSpeed = 150; 
-    var backspaceSpeed = 75; 
+    var backspaceSpeed = 62; 
     var cursorBlinkSpeed = 400; 
 
     function typeText(text, callback) {
