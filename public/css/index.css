@@ -108,3 +108,13 @@ a:hover {
     line-height: 1; 
 }
 
+.bottom-bar {
+    background-color: #333; /* Choose your desired background color */
+    color: #fff; /* Text color */
+    text-align: center;
+    padding: 10px; /* Adjust as needed */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}

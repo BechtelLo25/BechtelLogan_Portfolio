@@ -103,11 +103,11 @@ a:hover {
     line-height: 1; 
 }
 
-#pixelGame {
-    width: 22%;
-    height: 42%;
-    padding-left: 68%;
-    padding-top: 5.25%;
+#pixelPerson {
+    width: 26%;
+    height: 51%;
+    padding-left: 65%;
+    padding-top: 3%;
     position: absolute;
 }
 
