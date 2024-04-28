@@ -13,6 +13,10 @@ body {
     padding: 0; 
     overflow: hidden;
     animation: parallax 25s infinite ease-in-out;
+    user-select: none;
+      -moz-user-select: none; 
+      -ms-user-select: none;
+      -webkit-user-select: none; 
 }
 
 nav {
@@ -28,10 +32,6 @@ nav a {
     margin: 0 0.75%;
     text-decoration: none;
     float: right;
-}
-
-nav a:hover {
-    text-decoration: underline;
 }
 
 #contentContainer {
@@ -57,7 +57,7 @@ a {
 }
 
 a:hover {
-    color: #0056b3;
+    color: #275e2b;
 }
 
 #header {
@@ -119,4 +119,21 @@ a:hover {
     text-align: center;
 }
 
+.image {
+    cursor: pointer;
+    transition: transform 0.2s; 
+}
 
+.image:hover {
+    transform: scale(1.05); 
+}
+
+footer {
+    background-color: #000000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #16DB65;
+    padding: 0.5% 0;
+    padding-left: 4%;
+}

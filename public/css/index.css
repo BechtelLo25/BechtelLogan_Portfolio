@@ -13,6 +13,10 @@ body {
     padding: 0; 
     overflow: hidden;
     animation: parallax 25s infinite ease-in-out;
+    user-select: none;
+      -moz-user-select: none; 
+      -ms-user-select: none;
+      -webkit-user-select: none; 
 }
 
 nav {
@@ -107,12 +111,12 @@ a:hover {
     line-height: 1; 
 }
 
-.bottom-bar {
+footer {
     background-color: #000000;
-    color: #16DB65; 
     position: fixed;
     bottom: 0;
-    left: 0;
     width: 100%;
-    padding-left: 6%;
+    color: #16DB65;
+    padding: 0.5% 0;
+    padding-left: 4%;
 }
