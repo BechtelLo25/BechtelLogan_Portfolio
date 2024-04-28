@@ -17,6 +17,7 @@ body {
       -moz-user-select: none; 
       -ms-user-select: none;
       -webkit-user-select: none; 
+    text-shadow: 1px 1px 2px #020202, 2px 2px 2px #020202, 3px 3px 2px #020202;
 }
 
 nav {
@@ -32,10 +33,7 @@ nav a {
     margin: 0 0.75%;
     text-decoration: none;
     float: right;
-}
-
-nav a:hover {
-    text-decoration: underline;
+    text-shadow: 1px 1px 2px #020202, 2px 2px 2px #020202, 3px 3px 2px #020202;
 }
 
 #contentContainer {
@@ -54,6 +52,7 @@ button {
     padding: 0%;
     border: none;
     cursor: pointer;
+    text-shadow: 1px 1px 2px #020202, 2px 2px 2px #020202, 3px 3px 2px #020202;
 }
 
 a {
@@ -61,7 +60,7 @@ a {
 }
 
 a:hover {
-    color: #0056b3;
+    color: #275e2b;
 }
 
 #name {
@@ -69,15 +68,18 @@ a:hover {
     padding-top: 13%;
     font-size: 320%;
     position: absolute;
+    text-shadow: 1px 1px 2px #020202, 2px 2px 2px #020202, 3px 3px 2px #020202;
 }
 
 #intro {
     padding-top: 45%;
     text-align: center;
+    text-shadow: 1px 1px 2px #020202, 2px 2px 2px #020202, 3px 3px 2px #020202;
 }
 
 #st {
     text-align: center;
+    text-shadow: 1px 1px 2px #020202, 2px 2px 2px #020202, 3px 3px 2px #020202;
 }
 
 #pixelComp {
@@ -109,14 +111,16 @@ a:hover {
     white-space: nowrap; 
     overflow: hidden; 
     line-height: 1; 
+    text-shadow: 1px 1px 2px #020202, 2px 2px 2px #020202, 3px 3px 2px #020202;
 }
 
 footer {
-    background-color: #000000;
+    background-color: #020202;
     position: fixed;
     bottom: 0;
     width: 100%;
     color: #16DB65;
     padding: 0.75% 0;
     padding-left: 4%;
+    text-shadow: 1px 1px 2px #0D2818, 2px 2px 2px #0D2818, 3px 3px 2px #0D2818;
 }

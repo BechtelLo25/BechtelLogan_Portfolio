@@ -17,6 +17,7 @@ body {
       -moz-user-select: none; 
       -ms-user-select: none;
       -webkit-user-select: none; 
+    text-shadow: 1px 1px 2px #020202, 2px 2px 2px #020202, 3px 3px 2px #020202;
 }
 
 nav {
@@ -50,6 +51,7 @@ button {
     padding: 0%;
     border: none;
     cursor: pointer;
+    text-shadow: 1px 1px 2px #020202, 2px 2px 2px #020202, 3px 3px 2px #020202;
 }
 
 a {
@@ -129,11 +131,12 @@ a:hover {
 }
 
 footer {
-    background-color: #000000;
+    background-color: #020202;
     position: fixed;
     bottom: 0;
     width: 100%;
     color: #16DB65;
     padding: 0.75% 0;
     padding-left: 4%;
+    text-shadow: 1px 1px 2px #0D2818, 2px 2px 2px #0D2818, 3px 3px 2px #0D2818;
 }

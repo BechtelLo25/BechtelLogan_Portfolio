@@ -5,7 +5,7 @@ $(document).ready(function() {
         "Team Leader",
         "Web Developer",
         "FIRST Team Member",
-        "Open Source Contributor"
+        "Mentor"
     ];
 
     var index = 0;
