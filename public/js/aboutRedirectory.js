@@ -47,3 +47,13 @@ document.getElementById("PixelBorderWithGithub").addEventListener("click", funct
 
     window.open("https://github.com/", "_blank");
   });
+
+document.getElementById("PixelBorderWithPython").addEventListener("click", function() {
+
+    window.open("https://python.org/", "_blank");
+  });
+
+document.getElementById("PixelBorderWithC++").addEventListener("click", function() {
+
+    window.open("https://isocpp.org/", "_blank");
+  });
