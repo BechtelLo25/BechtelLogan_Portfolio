@@ -17,7 +17,7 @@ body {
       -moz-user-select: none; 
       -ms-user-select: none;
       -webkit-user-select: none; 
-    text-shadow: 2px 2px 3px #020202, 3px 3px 3px #020202, 4px 4px 3px #020202;
+    text-shadow: 2px 2px 3px #000000, 3px 3px 3px #000000, 4px 4px 3px #000000;
 }
 
 nav {
@@ -33,7 +33,7 @@ nav a {
     margin: 0 0.75%;
     text-decoration: none;
     float: right;
-    text-shadow: 2px 2px 3px #020202, 3px 3px 3px #020202, 4px 4px 3px #020202;
+    text-shadow: 2px 2px 3px #000000, 3px 3px 3px #000000, 4px 4px 3px #000000;
 }
 
 #contentContainer {
@@ -52,7 +52,7 @@ button {
     padding: 0%;
     border: none;
     cursor: pointer;
-    text-shadow: 2px 2px 3px #020202, 3px 3px 3px #020202, 4px 4px 3px #020202;
+    text-shadow: 2px 2px 3px #000000, 3px 3px 3px #000000, 4px 4px 3px #000000;
 }
 
 a {
@@ -68,18 +68,18 @@ a:hover {
     padding-top: 13%;
     font-size: 320%;
     position: absolute;
-    text-shadow: 2px 2px 3px #020202, 3px 3px 3px #020202, 4px 4px 3px #020202;
+    text-shadow: 2px 2px 3px #000000, 3px 3px 3px #000000, 4px 4px 3px #000000;
 }
 
 #intro {
     padding-top: 45%;
     text-align: center;
-    text-shadow: 2px 2px 3px #020202, 3px 3px 3px #020202, 4px 4px 3px #020202;
+    text-shadow: 2px 2px 3px #000000, 3px 3px 3px #000000, 4px 4px 3px #000000;
 }
 
 #st {
     text-align: center;
-    text-shadow: 2px 2px 3px #020202, 3px 3px 3px #020202, 4px 4px 3px #020202;
+    text-shadow: 2px 2px 3px #000000, 3px 3px 3px #000000, 4px 4px 3px #000000;
 }
 
 #pixelComp {
@@ -111,7 +111,7 @@ a:hover {
     white-space: nowrap; 
     overflow: hidden; 
     line-height: 1; 
-    text-shadow: 2px 2px 3px #020202, 3px 3px 3px #020202, 4px 4px 3px #020202;
+    text-shadow: 2px 2px 3px #000000, 3px 3px 3px #000000, 4px 4px 3px #000000;
 }
 
 footer {
@@ -122,5 +122,9 @@ footer {
     color: #16DB65;
     padding: 0.75% 0;
     padding-left: 4%;
-    text-shadow: 2px 2px 3px #020202, 3px 3px 3px #020202, 4px 4px 3px #020202;
+    text-shadow: 2px 2px 3px #000000, 3px 3px 3px #000000, 4px 4px 3px #000000;
+}
+
+#mainLink {
+    text-decoration: none;
 }
