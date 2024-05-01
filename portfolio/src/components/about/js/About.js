@@ -33,27 +33,6 @@ function App() {
   <link rel="stylesheet" href="/css/about.css" />
   <link rel="icon" type="image/x-icon" href="/res/favicon.ico" />
   <view>
-    <button>
-    <a href="/html/index.html" id="mainLink">
-      LB
-    </a>
-  </button>
-  <a href="/html/index.html" id="mainLink"></a>
-  <nav>
-    <a href="/html/index.html" id="mainLink"></a>
-    <a href="/html/about.html" id="aboutLink">
-      About
-    </a>
-    <a href="/html/projects.html" id="projectLink">
-      Projects
-    </a>
-    <a href="/html/resume.html" id="resumeLink">
-      Resume
-    </a>
-    <a href="/html/contact.html" id="contactLink">
-      Contact
-    </a>
-  </nav>
   <div>
     <img src={pixelPerson} alt="Pixel Person" id="pixelPerson" />
   </div>

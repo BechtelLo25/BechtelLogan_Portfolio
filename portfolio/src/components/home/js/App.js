@@ -92,25 +92,6 @@ function App() {
       <title>Logan | Portfolio</title>
       <link rel="stylesheet" href="/css/index.css" />
       <link rel="icon" type="image/x-icon" href="/res/favicon.ico" />
-      <button>
-        <a href="/html/index.html" id="mainLink">
-          LB
-        </a>
-      </button>
-      <nav>
-        <a href="/html/about.html" id="aboutLink">
-          About
-        </a>
-        <a href="/html/projects.html" id="projectLink">
-          Projects
-        </a>
-        <a href="/html/resume.html" id="resumeLink">
-          Resume
-        </a>
-        <a href="/html/contact.html" id="contactLink">
-          Contact
-        </a>
-      </nav>
       <div>
         <h1 id="name">Logan Bechtel</h1>
         <h2 id="title" />

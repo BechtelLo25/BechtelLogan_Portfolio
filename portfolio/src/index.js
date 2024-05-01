@@ -1,40 +1,48 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import HomePage from './components/home/js/App.js';
 import AboutPage from './components/about/js/About.js';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('about'); 
+  const [currentPage, setCurrentPage] = useState('home'); 
 
   // Function to handle switching between pages
   const handlePageChange = (page) => {
     setCurrentPage(page);
   };
 
-  // Function to handle button click event
-  const handleButtonClick = (event) => {
-    console.log('Button clicked:', event.target.id);
-    if (event.target.id === 'aboutLink') {
-      handlePageChange('about');
-    } else if (event.target.id === 'mainLink') {
-      handlePageChange('home');
-    }
-  };
-
-  useEffect(() => {
-    document.addEventListener('click', handleButtonClick);
-
-    // Clean up event listener when the component unmounts
-    return () => {
-      document.removeEventListener('click', handleButtonClick);
-    };
-  }, []); // Empty dependency array means this effect will only run once when the component mounts
-
   return (
     <div>
+      <button onClick={() => handlePageChange('home')}>
+    <a href="/html/index.html" id="mainLink">
+      LB
+    </a>
+  </button>
+  
+  <a href="/html/index.html" id="mainLink"></a>
+  <nav>
+    <a href="/html/index.html" id="mainLink"></a>
+    <button></button>
+    <a href="/html/about.html" id="aboutLink">
+      About
+    </a>
+    <a href="/html/projects.html" id="projectLink">
+      Projects
+    </a>
+    <a href="/html/resume.html" id="resumeLink">
+      Resume
+    </a>
+    <a href="/html/contact.html" id="contactLink">
+      Contact
+    </a>
+  </nav>
       {/* Conditional rendering based on the current page */}
       {currentPage === 'home' && <HomePage />}
       {currentPage === 'about' && <AboutPage />}
+
+      {/* Buttons to switch between pages */}
+      <button onClick={() => handlePageChange('home')} id="butt">Home</button>
+      <button onClick={() => handlePageChange('about')}>About</button>
     </div>
   );
 }
