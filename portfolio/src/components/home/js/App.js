@@ -97,8 +97,6 @@ function App() {
         <h2 id="title" />
         <img src={pixelComputer} alt="Pixel Computer" id="pixelComp" />
       </div>
-      {/* JavaScript for typing animation */}
-      <footer>© Designed and Developed by Logan Bechtel</footer>
     </>
   );
 }

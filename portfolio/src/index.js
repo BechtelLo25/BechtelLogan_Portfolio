@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import HomePage from './components/home/js/App.js';
 import AboutPage from './components/about/js/About.js';
+import Github from './components/about/js/Github.js';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home'); 
@@ -12,38 +13,35 @@ function App() {
   };
 
   return (
-    <div>
+    <><div>
       <button onClick={() => handlePageChange('home')}>
-    <a href="/html/index.html" id="mainLink">
-      LB
-    </a>
-  </button>
-  
-  <a href="/html/index.html" id="mainLink"></a>
-  <nav>
-    <a href="/html/index.html" id="mainLink"></a>
-    <button></button>
-    <a href="/html/about.html" id="aboutLink">
-      About
-    </a>
-    <a href="/html/projects.html" id="projectLink">
-      Projects
-    </a>
-    <a href="/html/resume.html" id="resumeLink">
-      Resume
-    </a>
-    <a href="/html/contact.html" id="contactLink">
-      Contact
-    </a>
-  </nav>
-      {/* Conditional rendering based on the current page */}
-      {currentPage === 'home' && <HomePage />}
-      {currentPage === 'about' && <AboutPage />}
+        <a href="/html/index.html" id="mainLink">
+          LB
+        </a>
+      </button>
 
-      {/* Buttons to switch between pages */}
-      <button onClick={() => handlePageChange('home')} id="butt">Home</button>
-      <button onClick={() => handlePageChange('about')}>About</button>
-    </div>
+      <a href="/html/index.html" id="mainLink"></a>
+      <nav>
+        <a href="/html/index.html" id="mainLink"></a>
+        <button></button>
+        <a onClick={() => handlePageChange('about')} id="aboutLink">
+          About
+        </a>
+        <a href="/html/projects.html" id="projectLink">
+          Projects
+        </a>
+        <a href="/html/resume.html" id="resumeLink">
+          Resume
+        </a>
+        <a href="/html/contact.html" id="contactLink">
+          Contact
+        </a>
+      </nav>
+      {currentPage === 'home' && <HomePage />}
+      {currentPage === 'about' && <><AboutPage /><Github /></>}
+
+    </div><footer>© Designed and Developed by Logan Bechtel</footer></>
+    
   );
 }
 

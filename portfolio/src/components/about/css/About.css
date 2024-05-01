@@ -65,7 +65,7 @@ a:hover {
 
 #header {
     padding-left: 15%;
-    padding-top: 3%;
+    padding-top: 0.5%;
     font-size: 320%;
     position: absolute;
 }
@@ -79,7 +79,7 @@ a:hover {
 }
 
 #desc1 {
-    padding-top: 9%;
+    padding-top: 6%;
     padding-left: 6%;
     font-size: 200%;
     position: absolute; 
@@ -107,7 +107,7 @@ a:hover {
     width: 26%;
     height: 51%;
     padding-left: 65%;
-    padding-top: 3%;
+    padding-top: 0.3%;
     position: absolute;
 }
 
