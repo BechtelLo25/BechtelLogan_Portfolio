@@ -3,13 +3,8 @@ import ReactDOM from 'react-dom';
 import HomePage from './components/home/js/App.js';
 import AboutPage from './components/about/js/About.js';
 
-const seen = false;
-
 function App() {
-  if(seen === false) {
-    const [currentPage, setCurrentPage] = useState('home'); 
-    seen = true;
-  }
+  const [currentPage, setCurrentPage] = useState('about'); 
 
   // Function to handle switching between pages
   const handlePageChange = (page) => {
@@ -18,6 +13,7 @@ function App() {
 
   // Function to handle button click event
   const handleButtonClick = (event) => {
+    console.log('Button clicked:', event.target.id);
     if (event.target.id === 'aboutLink') {
       handlePageChange('about');
     } else if (event.target.id === 'mainLink') {
