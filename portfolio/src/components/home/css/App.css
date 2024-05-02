@@ -1,4 +1,4 @@
-body {
+/* body {
   background-image: url('../res/bg.png');
   background-size: cover;
   background-position: center;
@@ -18,7 +18,7 @@ body {
     -ms-user-select: none;
     -webkit-user-select: none; 
   text-shadow: 2px 2px 3px #000000, 3px 3px 3px #000000, 4px 4px 3px #000000;
-}
+} */
 
 nav {
   padding: 0.2%;

@@ -16,7 +16,7 @@ import pixelReact from '../res/PixelBorderWithReact.png';
 
 import '../css/About.css';
 
-function App() {
+function About() {
     useEffect(() => {
         const handleClick = (url) => {
             window.open(url, "_blank");
@@ -175,4 +175,4 @@ function App() {
     );
 }
 
-export default App;
+export default About;
