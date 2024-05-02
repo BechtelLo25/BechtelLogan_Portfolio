@@ -8,7 +8,7 @@ function Github() {
     <Row className="justify-content-center"> 
       <Col>
         <h1 className="project-heading">
-          When I Code
+          Code Contributions
         </h1>
         <div className="grid">
           <GitHubCalendar 

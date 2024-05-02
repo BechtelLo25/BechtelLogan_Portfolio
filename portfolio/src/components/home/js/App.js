@@ -90,7 +90,6 @@ function App() {
         rel="stylesheet"
       />
       <title>Logan | Portfolio</title>
-      <link rel="stylesheet" href="/css/index.css" />
       <link rel="icon" type="image/x-icon" href="/res/favicon.ico" />
       <div>
         <h1 id="name">Logan Bechtel</h1>

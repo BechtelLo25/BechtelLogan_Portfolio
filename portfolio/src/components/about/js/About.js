@@ -34,7 +34,8 @@ function App() {
             PixelBorderWithMS: "https://www.microsoft.com/en-us/windows/?r=1",
             PixelBorderWithGithub: "https://github.com/",
             PixelBorderWithPython: "https://python.org/",
-            PixelBorderWithCPlusPlus: "https://isocpp.org/"
+            PixelBorderWithCPlusPlus: "https://isocpp.org/",
+            PixelBorderWithReact: "https://react.dev/"
         };
 
         const addEventListeners = () => {
