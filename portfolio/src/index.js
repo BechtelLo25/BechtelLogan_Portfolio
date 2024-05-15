@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import HomePage from './components/home/js/App.js';
 import AboutPage from './components/about/js/About.js';
 import Github from './components/about/js/Github.js';
+import pixelGithub from './indexRes/PixelGithub.png'
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home'); 
@@ -13,7 +14,7 @@ function App() {
   };
 
   return (
-    <><div>
+    <><><div>
       <button onClick={() => handlePageChange('home')}>
         <a href="/html/index.html" id="mainLink">
           LB
@@ -40,7 +41,11 @@ function App() {
       {currentPage === 'home' && <HomePage />}
       {currentPage === 'about' && <><AboutPage /><Github /></>}
 
-    </div><footer>© Designed and Developed by Logan Bechtel</footer></>
+    </div>
+      <footer>
+      © Designed and Developed by Logan Bechtel
+      </footer>
+      </></>
     
   );
 }

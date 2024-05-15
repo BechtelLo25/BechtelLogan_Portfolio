@@ -128,3 +128,10 @@ footer {
 #mainLink {
   text-decoration: none;
 }
+
+.pixelGithub {
+  width: 2%;
+  height: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+}
