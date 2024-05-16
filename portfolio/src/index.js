@@ -4,6 +4,7 @@ import HomePage from './components/home/js/App.js';
 import AboutPage from './components/about/js/About.js';
 import Github from './components/about/js/Github.js';
 import pixelGithub from './indexRes/PixelGithub.png'
+import ResumePage from './components/resume/js/resume.js';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home'); 
@@ -31,7 +32,7 @@ function App() {
         <a href="/html/projects.html" id="projectLink">
           Projects
         </a>
-        <a href="/html/resume.html" id="resumeLink">
+        <a onClick={() => handlePageChange('resume')} id="resumeLink">
           Resume
         </a>
         <a href="/html/contact.html" id="contactLink">
@@ -40,6 +41,7 @@ function App() {
       </nav>
       {currentPage === 'home' && <HomePage />}
       {currentPage === 'about' && <><AboutPage /><Github /></>}
+      {currentPage === 'resume' && <ResumePage />}
 
     </div>
       <footer>
