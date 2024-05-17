@@ -1,0 +1,17 @@
+#resumeheader {
+    padding-left: 15%;
+    padding-top: 15%;
+    font-size: 320%;
+    position: absolute;
+    text-shadow: 2px 2px 3px #000000, 3px 3px 3px #000000, 4px 4px 3px #000000;
+}
+
+.resume {
+    padding-left: 30%;
+    padding-top: 1.5%;
+}
+
+#resume {
+    width: 105%;
+    height: 105%;
+}

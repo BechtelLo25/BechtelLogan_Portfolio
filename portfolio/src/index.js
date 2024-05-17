@@ -4,7 +4,7 @@ import HomePage from './components/home/js/App.js';
 import AboutPage from './components/about/js/About.js';
 import Github from './components/about/js/Github.js';
 import pixelGithub from './indexRes/PixelGithub.png'
-import ResumePage from './components/resume/js/resume.js';
+import ResumePage from './components/resume/js/Resume.js';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home'); 
